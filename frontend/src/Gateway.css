@@ -1,0 +1,73 @@
+/* frontend/src/Gateway.css */
+.gateway-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+}
+
+.pay-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.pay-button:hover {
+  background-color: #0056b3;
+}
+
+.payment-details p {
+  margin-bottom: 1rem;
+}
+
+.qr-container {
+  margin: 1.5rem 0;
+  padding: 10px;
+  background: #fff;
+  display: inline-block;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+.address-box {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.address-box input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 12px;
+  background-color: #f8f8f8;
+}
+
+.address-box button {
+  padding: 8px 12px;
+  border: 1px solid #007bff;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.waiting-text {
+  color: #555;
+  font-style: italic;
+}
+
+.success-title {
+    color: #28a745;
+}
+
+.error-text {
+    color: #dc3545;
+}
